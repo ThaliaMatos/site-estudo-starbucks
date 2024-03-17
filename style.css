@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    min-height: 100%;
+
+}
+
+.conteudo {
+    width: 100%; /* largura */
+    display: flex;
+    justify-content: space-between; /* adiciona espaço entre os itens */
+    align-items: center; /* alinha  tudo ao centro */
+    position: relative;
+    z-index: 3;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end; /* joga item todo pro lado */
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* joga itens para o centro */
+}
+
+button {
+    background-color: #017143; /*cor do fundo*/
+    color: #ffffff; /*cor do texto*/
+    border: none;  /* sem borda*/
+    padding: 10px;  /*espaço de dentro*/
+    border-radius: 20px; /*Arredondamento da borda*/
+}
+
+h2 {
+    font-size: 60px; /*tamanho da fonte*/
+    font-weight: 500; /*grossura da letra*/
+}
+
+span {
+    color: #017143;
+    font-size: 70px; /* muda tamanho do texto */
+    font-weight: 900; /* muda a grossura do texto */
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.starbucks {
+    
+    width: 340px;
+    position: relative;
+    z-index: 2;
+}
+
+.copo-pequeno {
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-35px);
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at 100% 800px);
+    z-index: -1;
+}
+
+.redes-sociais {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    left: 96%;
+    top: 250px;
+}
+
+.redes-sociais svg {
+    height: 40px;
+}
+
+.balloon {
+    padding: 5px 5px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
