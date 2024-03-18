@@ -1,4 +1,4 @@
-let circulo = document.querySelector('.circulo')
+let quadrado = document.querySelector('.quadrado')
     let imgCopo = document.querySelector('.starbuks')
     let verde = document.querySelector('.verde')
     let amarelo = document.querySelector('.amarelo')
@@ -7,16 +7,16 @@ let circulo = document.querySelector('.circulo')
 
     verde.addEventListener('click', () => {
         imgCopo.src = "./img/img1.png"
-        circulo.style.background = "#017143"
+        quadrado.style.background = "#01a661"
     })
     
     amarelo.addEventListener('click', () => {
         imgCopo.src = "./img/img2.png"
         imgCopo.style.width = '340px'
-        circulo.style.background = "#EB7495"
+        quadrado.style.background = "#EB7495"
     })
     
     rosa.addEventListener('click', () => {
         imgCopo.src = "./img/img3.png"
-        circulo.style.background = "#d752b1"
+        quadrado.style.background = "#d752b1"
     })
